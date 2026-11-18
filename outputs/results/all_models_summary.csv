@@ -1,0 +1,7 @@
+model,params_M,best_val_acc,best_epoch,final_train_acc,final_val_acc,final_gap
+ResNet50 (baseline),24.0,0.9623,1,0.9986,0.9418,+0.0568
+ResNet50 (regularized),24.0,0.9645,4,0.9987,0.9511,+0.0476
+ResNet18,11.2,0.9609,7,0.9970,0.9546,+0.0425
+DenseNet121,7.0,0.9678,3,0.9981,0.9570,+0.0412
+EfficientNet-B0,4.0,0.9735,2,0.9971,0.9664,+0.0307
+ViT-B/16,85.8,0.9660,4,0.9981,0.9552,+0.0430

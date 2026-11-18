@@ -1,0 +1,6 @@
+model,unique_rescues,lone_errors
+ResNet18,1,21
+ResNet50 (reg),26,23
+DenseNet121,3,12
+EfficientNet-B0,2,30
+ViT-B/16,5,23

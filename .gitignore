@@ -1,0 +1,83 @@
+# ----------------------------------------------------------------------
+# Dataset (~15.5 GB, 107k files) -- NOT stored in git.
+# Download from Zenodo instead: https://zenodo.org/records/1214456
+# See README.md for the expected folder layout.
+# ----------------------------------------------------------------------
+data/
+
+
+# ----------------------------------------------------------------------
+# Trained model weights (~593 MB; the ViT checkpoint alone is 327 MB,
+# which is over GitHub's 100 MB per-file hard limit).
+# README.md gives the exact commands to retrain each model.
+# ----------------------------------------------------------------------
+outputs/checkpoints/
+outputs/old_recipe/
+*.pth
+*.pt
+*.ckpt
+
+
+# ----------------------------------------------------------------------
+# TensorBoard event files (regenerated on every training run)
+# ----------------------------------------------------------------------
+outputs/runs/
+
+
+# ----------------------------------------------------------------------
+# Private working files -- not part of the handoff
+# ----------------------------------------------------------------------
+.claude/
+.vscode/
+notes/
+
+
+# ----------------------------------------------------------------------
+# Python
+# ----------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing / linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# ----------------------------------------------------------------------
+# OS / editor cruft
+# ----------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.swp
+*~
+
+
+# ----------------------------------------------------------------------
+# Secrets
+# ----------------------------------------------------------------------
+.env
+.env.*
+!.env.example

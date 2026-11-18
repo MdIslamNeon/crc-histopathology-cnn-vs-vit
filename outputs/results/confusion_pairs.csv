@@ -1,0 +1,132 @@
+model,actual,predicted,count,pct_of_actual
+ResNet50 (baseline),STR,MUS,122,28.98
+ResNet18,STR,MUS,107,25.42
+ResNet50 (reg),STR,MUS,74,17.58
+ViT-B/16,MUS,STR,71,11.99
+DenseNet121,STR,MUS,63,14.96
+EfficientNet-B0,MUS,STR,61,10.30
+ViT-B/16,STR,MUS,60,14.25
+EfficientNet-B0,STR,MUS,56,13.30
+ResNet50 (reg),MUC,ADI,35,3.38
+DenseNet121,MUS,STR,35,5.91
+ResNet18,MUS,STR,34,5.74
+ResNet50 (baseline),MUS,STR,34,5.74
+ResNet18,TUM,NORM,32,2.60
+ResNet18,ADI,LYM,25,1.87
+ViT-B/16,MUC,ADI,25,2.42
+DenseNet121,TUM,NORM,24,1.95
+ResNet50 (baseline),MUC,STR,23,2.22
+DenseNet121,MUS,ADI,23,3.89
+ResNet50 (baseline),NORM,TUM,21,2.83
+ResNet50 (reg),STR,TUM,21,4.99
+ResNet50 (baseline),MUC,ADI,20,1.93
+ResNet50 (reg),MUC,MUS,19,1.84
+DenseNet121,MUS,MUC,19,3.21
+EfficientNet-B0,TUM,NORM,19,1.54
+ResNet18,ADI,MUS,17,1.27
+ResNet50 (reg),MUS,STR,17,2.87
+EfficientNet-B0,ADI,MUS,15,1.12
+ViT-B/16,TUM,NORM,15,1.22
+ResNet50 (baseline),LYM,NORM,12,1.89
+ResNet50 (reg),ADI,MUS,11,0.82
+DenseNet121,MUC,NORM,11,1.06
+ViT-B/16,NORM,TUM,11,1.48
+ResNet18,MUC,MUS,10,0.97
+ResNet50 (baseline),STR,TUM,10,2.38
+ResNet50 (reg),ADI,MUC,10,0.75
+ResNet50 (reg),TUM,NORM,10,0.81
+ViT-B/16,STR,TUM,10,2.38
+ResNet18,ADI,MUC,9,0.67
+ResNet18,MUC,ADI,9,0.87
+ResNet50 (reg),TUM,DEB,9,0.73
+ResNet18,MUC,NORM,8,0.77
+EfficientNet-B0,STR,TUM,8,1.90
+ResNet18,MUS,MUC,7,1.18
+ResNet18,STR,NORM,7,1.66
+ResNet50 (baseline),ADI,MUS,7,0.52
+ResNet50 (reg),NORM,TUM,7,0.94
+DenseNet121,MUC,MUS,7,0.68
+DenseNet121,STR,NORM,7,1.66
+EfficientNet-B0,DEB,MUS,7,2.06
+ResNet18,STR,TUM,6,1.43
+ResNet50 (baseline),TUM,NORM,6,0.49
+ResNet50 (reg),LYM,TUM,6,0.95
+ResNet50 (reg),MUC,BACK,6,0.58
+ResNet50 (reg),STR,LYM,6,1.43
+ViT-B/16,MUC,STR,6,0.58
+DenseNet121,DEB,MUS,5,1.47
+DenseNet121,MUC,ADI,5,0.48
+DenseNet121,TUM,LYM,5,0.41
+ViT-B/16,NORM,LYM,5,0.67
+ViT-B/16,STR,NORM,5,1.19
+ViT-B/16,TUM,DEB,5,0.41
+ResNet50 (baseline),ADI,MUC,4,0.30
+ResNet50 (reg),TUM,MUS,4,0.32
+DenseNet121,ADI,MUS,4,0.30
+DenseNet121,STR,TUM,4,0.95
+ViT-B/16,MUC,MUS,4,0.39
+ViT-B/16,MUC,NORM,4,0.39
+ViT-B/16,MUS,DEB,4,0.68
+ResNet18,MUC,TUM,3,0.29
+ResNet18,TUM,DEB,3,0.24
+ResNet50 (reg),MUC,NORM,3,0.29
+ResNet50 (reg),MUC,TUM,3,0.29
+ResNet50 (reg),STR,DEB,3,0.71
+DenseNet121,NORM,LYM,3,0.40
+DenseNet121,STR,MUC,3,0.71
+EfficientNet-B0,MUC,TUM,3,0.29
+EfficientNet-B0,NORM,TUM,3,0.40
+ViT-B/16,BACK,ADI,3,0.35
+ViT-B/16,MUC,TUM,3,0.29
+ResNet50 (baseline),NORM,MUC,2,0.27
+ResNet50 (baseline),STR,NORM,2,0.48
+ResNet50 (baseline),TUM,DEB,2,0.16
+ResNet50 (baseline),TUM,LYM,2,0.16
+ResNet50 (reg),MUS,DEB,2,0.34
+ResNet50 (reg),NORM,LYM,2,0.27
+ResNet50 (reg),STR,NORM,2,0.48
+DenseNet121,MUC,TUM,2,0.19
+DenseNet121,TUM,DEB,2,0.16
+EfficientNet-B0,ADI,MUC,2,0.15
+EfficientNet-B0,LYM,NORM,2,0.32
+EfficientNet-B0,MUC,MUS,2,0.19
+EfficientNet-B0,TUM,DEB,2,0.16
+EfficientNet-B0,TUM,LYM,2,0.16
+ViT-B/16,ADI,MUS,2,0.15
+ViT-B/16,ADI,TUM,2,0.15
+ViT-B/16,LYM,DEB,2,0.32
+ViT-B/16,STR,DEB,2,0.48
+ViT-B/16,STR,MUC,2,0.48
+ResNet18,ADI,DEB,1,0.07
+ResNet18,NORM,LYM,1,0.13
+ResNet18,STR,MUC,1,0.24
+ResNet18,TUM,LYM,1,0.08
+ResNet50 (baseline),ADI,BACK,1,0.07
+ResNet50 (baseline),LYM,STR,1,0.16
+ResNet50 (baseline),MUC,BACK,1,0.10
+ResNet50 (baseline),MUC,TUM,1,0.10
+ResNet50 (reg),ADI,BACK,1,0.07
+ResNet50 (reg),MUC,STR,1,0.10
+ResNet50 (reg),NORM,MUS,1,0.13
+ResNet50 (reg),NORM,STR,1,0.13
+ResNet50 (reg),TUM,LYM,1,0.08
+DenseNet121,ADI,BACK,1,0.07
+DenseNet121,ADI,MUC,1,0.07
+DenseNet121,LYM,TUM,1,0.16
+DenseNet121,MUC,DEB,1,0.10
+DenseNet121,MUC,STR,1,0.10
+DenseNet121,NORM,TUM,1,0.13
+DenseNet121,STR,DEB,1,0.24
+DenseNet121,STR,LYM,1,0.24
+DenseNet121,TUM,STR,1,0.08
+EfficientNet-B0,ADI,NORM,1,0.07
+EfficientNet-B0,LYM,MUS,1,0.16
+EfficientNet-B0,MUC,ADI,1,0.10
+EfficientNet-B0,MUC,NORM,1,0.10
+EfficientNet-B0,MUC,STR,1,0.10
+EfficientNet-B0,STR,MUC,1,0.24
+EfficientNet-B0,STR,NORM,1,0.24
+EfficientNet-B0,TUM,MUS,1,0.08
+ViT-B/16,ADI,MUC,1,0.07
+ViT-B/16,LYM,STR,1,0.16
+ViT-B/16,NORM,STR,1,0.13

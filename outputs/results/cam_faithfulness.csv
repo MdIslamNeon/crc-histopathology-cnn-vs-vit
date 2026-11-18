@@ -1,0 +1,6 @@
+model,deletion_auc,insertion_auc,deletion_auc_norm,insertion_auc_norm,random_deletion_auc_norm,random_insertion_auc_norm,deletion_gap,insertion_gap,blur_floor,n_patches
+ResNet18,0.6458,0.6943,0.7208,0.7773,0.7717,0.7664,0.0509,0.0110,0.2127,200
+ResNet50 (reg),0.5548,0.6994,0.6472,0.8285,0.7867,0.7841,0.1395,0.0444,0.2848,200
+DenseNet121,0.5922,0.7123,0.6615,0.8049,0.7594,0.7616,0.0980,0.0433,0.2373,200
+EfficientNet-B0,0.6993,0.7670,0.8055,0.8882,0.7924,0.7941,-0.0131,0.0941,0.4325,200
+ViT-B/16,0.5143,0.6004,0.5951,0.7009,0.6997,0.6941,0.1045,0.0068,0.3265,200

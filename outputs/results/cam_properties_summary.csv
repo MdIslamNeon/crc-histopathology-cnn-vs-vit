@@ -1,0 +1,16 @@
+model,subset,n,top10_mass,entropy,roughness
+ResNet18,all,1013,0.1765,0.9873,0.00376
+ResNet18,correct,851,0.1639,0.9901,0.00379
+ResNet18,incorrect,162,0.2425,0.9727,0.00362
+ResNet50 (reg),all,1013,0.3176,0.9558,0.00480
+ResNet50 (reg),correct,888,0.2940,0.9619,0.00498
+ResNet50 (reg),incorrect,125,0.4853,0.9130,0.00352
+DenseNet121,all,1013,0.2128,0.9810,0.00462
+DenseNet121,correct,857,0.1909,0.9882,0.00481
+DenseNet121,incorrect,156,0.3328,0.9413,0.00362
+EfficientNet-B0,all,1013,0.2078,0.9843,0.00452
+EfficientNet-B0,correct,886,0.1962,0.9874,0.00461
+EfficientNet-B0,incorrect,127,0.2889,0.9625,0.00390
+ViT-B/16,all,1013,0.3771,0.9326,0.01094
+ViT-B/16,correct,859,0.3594,0.9370,0.01145
+ViT-B/16,incorrect,154,0.4758,0.9077,0.00810

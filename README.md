@@ -144,8 +144,8 @@ to reproduce or extend the work.
 ### 1. Get the code
 
 ```bash
-git clone <this-repo-url>
-cd crc-thesis
+git clone https://github.com/MdIslamNeon/crc-histopathology-cnn-vs-vit.git
+cd crc-histopathology-cnn-vs-vit
 ```
 
 ### 2. Make a Python environment
@@ -207,7 +207,7 @@ Two archives are needed:
 Unzip them so the folder layout looks exactly like this:
 
 ```
-crc-thesis/
+crc-histopathology-cnn-vs-vit/
 ├── data/
 │   ├── train/            <- from NCT-CRC-HE-100K.zip
 │   │   ├── ADI/          *.tif
